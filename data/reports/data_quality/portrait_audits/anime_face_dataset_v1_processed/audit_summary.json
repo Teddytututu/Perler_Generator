@@ -1,0 +1,38 @@
+{
+  "total_files": 57236,
+  "valid_files": 57236,
+  "invalid_files": 0,
+  "total_bytes": 1391268388,
+  "width": {
+    "min": 256,
+    "median": 256.0,
+    "p90": 256,
+    "max": 256
+  },
+  "height": {
+    "min": 256,
+    "median": 256.0,
+    "p90": 256,
+    "max": 256
+  },
+  "minimum_side_buckets": {
+    "lt_48": 0,
+    "48_to_63": 0,
+    "64_to_95": 0,
+    "96_to_127": 0,
+    "128_to_255": 0,
+    "gte_256": 57236
+  },
+  "top_dimensions": [
+    [
+      "256x256",
+      57236
+    ]
+  ],
+  "modes": {
+    "RGB": 57236
+  },
+  "formats": {
+    "JPEG": 57236
+  }
+}

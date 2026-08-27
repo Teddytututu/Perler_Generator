@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: outline-ai
+Version: 0.0.1
+Summary: Semantic outline generation utilities for the image-pindou project
+Requires-Python: >=3.11
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: Pillow<12,>=10
+Requires-Dist: scipy<2,>=1.11
+Requires-Dist: scikit-image<1,>=0.22
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=7.4; extra == "dev"
+Provides-Extra: model
+Requires-Dist: torch>=2.2; extra == "model"
+Requires-Dist: torchvision>=0.17; extra == "model"

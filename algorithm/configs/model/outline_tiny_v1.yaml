@@ -1,0 +1,11 @@
+model:
+  name: outline-tiny-v1
+  encoder: tiny_hierarchical
+  encoder_channels: [32, 64, 128, 256]
+  decoder_channels: 64
+  outline_classes: 4
+  direction_classes: 8
+  input_size: [512, 512]
+  grid_size: [48, 48]
+  deep_supervision: true
+

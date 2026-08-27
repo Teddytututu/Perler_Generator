@@ -1,0 +1,40 @@
+dataset:
+  name: anime-outline-v1
+  domain: anime_portrait
+  raw_images: ../../data/raw/anime_character_mask/extracted/imgs
+  raw_masks: ../../data/raw/anime_character_mask/extracted/masks
+  processed_root: ../../data/processed/anime_outline_v1
+  reports_root: ../../data/reports/outline_generation/model_runs/anime_outline_v1
+
+geometry:
+  input_size: [512, 512]
+  grid_size: [48, 48]
+  resize_policy: fit_with_padding
+  image_resample: lanczos
+  label_resample: nearest
+
+labels:
+  background: 0
+  outer: 1
+  structural: 2
+  key_feature: 3
+  ignore: 255
+  direction_classes: 8
+
+validation:
+  allowed_gap_grid: 1
+  require_outer_closure: true
+  key_features_must_be_inside_subject: true
+  approved_samples_require_strict_closure: true
+
+bootstrap:
+  mask_threshold: 127
+  highres_label_source: foreground_mask_boundary
+  grid_label_source: automatic_mask_projection
+  review_status: needs_review
+
+split:
+  train: 0.8
+  validation: 0.1
+  test: 0.1
+  group_by_identity: true

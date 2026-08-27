@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "canny": {
+      "samples": 5,
+      "outer_f1": 0.5060922387344562,
+      "continuity": 0.4512086721133004,
+      "smoothness": 0.8150893332535682,
+      "isolated_pixel_ratio": 0.0,
+      "strict_closure_rate": 0.0,
+      "repairable_closure_rate": 0.0
+    },
+    "mask_boundary": {
+      "samples": 5,
+      "outer_f1": 1.0,
+      "continuity": 1.0,
+      "smoothness": 0.9595551279934285,
+      "isolated_pixel_ratio": 0.0,
+      "strict_closure_rate": 0.2,
+      "repairable_closure_rate": 0.2
+    }
+  },
+  "samples": [
+    {
+      "method": "canny",
+      "sample_id": "sample_000000",
+      "outer_f1": 0.21989528795811517,
+      "precision": 0.20388349514563106,
+      "recall": 0.23863636363636365,
+      "continuity": 0.10227272727272728,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 7,
+      "smoothness": 0.8266990291262136,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "canny",
+      "sample_id": "sample_000001",
+      "outer_f1": 0.8043867243867244,
+      "precision": 0.7243243243243244,
+      "recall": 0.9043478260869565,
+      "continuity": 0.5391304347826087,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 6,
+      "smoothness": 0.7975675675675675,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "canny",
+      "sample_id": "sample_000002",
+      "outer_f1": 0.6113775390583371,
+      "precision": 0.48464163822525597,
+      "recall": 0.8278688524590164,
+      "continuity": 1.0,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 8,
+      "smoothness": 0.8291808873720137,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "canny",
+      "sample_id": "sample_000003",
+      "outer_f1": 0.4230769230769231,
+      "precision": 0.3076923076923077,
+      "recall": 0.676923076923077,
+      "continuity": 0.13076923076923078,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 1,
+      "smoothness": 0.7907342657342658,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "canny",
+      "sample_id": "sample_000004",
+      "outer_f1": 0.4717247191921812,
+      "precision": 0.324582338902148,
+      "recall": 0.8629032258064516,
+      "continuity": 0.4838709677419355,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 8,
+      "smoothness": 0.8312649164677804,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "mask_boundary",
+      "sample_id": "sample_000000",
+      "outer_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "continuity": 1.0,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 1,
+      "smoothness": 0.9840909090909091,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "mask_boundary",
+      "sample_id": "sample_000001",
+      "outer_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "continuity": 1.0,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 6,
+      "smoothness": 0.8995652173913044,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "mask_boundary",
+      "sample_id": "sample_000002",
+      "outer_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "continuity": 1.0,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 4,
+      "smoothness": 0.9254098360655738,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "mask_boundary",
+      "sample_id": "sample_000003",
+      "outer_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "continuity": 1.0,
+      "strict_closed": true,
+      "repairable_closed": true,
+      "endpoint_count": 0,
+      "smoothness": 1.0,
+      "isolated_pixel_ratio": 0.0
+    },
+    {
+      "method": "mask_boundary",
+      "sample_id": "sample_000004",
+      "outer_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "continuity": 1.0,
+      "strict_closed": false,
+      "repairable_closed": false,
+      "endpoint_count": 1,
+      "smoothness": 0.9887096774193549,
+      "isolated_pixel_ratio": 0.0
+    }
+  ]
+}

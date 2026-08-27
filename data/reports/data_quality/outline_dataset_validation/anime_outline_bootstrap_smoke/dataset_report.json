@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "total": 5,
+    "valid": 5,
+    "invalid": 0,
+    "strict_closure_rate": 0.2,
+    "issue_counts": {
+      "outer_not_strictly_closed": 3
+    },
+    "severity_counts": {
+      "warning": 3
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "sample_000000",
+      "path": "data/processed/anime_outline_bootstrap_smoke/sample_000000",
+      "valid": true,
+      "issues": [
+        {
+          "code": "outer_not_strictly_closed",
+          "message": "required grid outer contour is not strictly closed",
+          "severity": "warning"
+        }
+      ],
+      "subject_ratio": 0.18297576904296875,
+      "outline_pixels": 1194,
+      "strict_closed": false
+    },
+    {
+      "sample_id": "sample_000001",
+      "path": "data/processed/anime_outline_bootstrap_smoke/sample_000001",
+      "valid": true,
+      "issues": [
+        {
+          "code": "outer_not_strictly_closed",
+          "message": "required grid outer contour is not strictly closed",
+          "severity": "warning"
+        }
+      ],
+      "subject_ratio": 0.178497314453125,
+      "outline_pixels": 2281,
+      "strict_closed": false
+    },
+    {
+      "sample_id": "sample_000002",
+      "path": "data/processed/anime_outline_bootstrap_smoke/sample_000002",
+      "valid": true,
+      "issues": [
+        {
+          "code": "outer_not_strictly_closed",
+          "message": "required grid outer contour is not strictly closed",
+          "severity": "warning"
+        }
+      ],
+      "subject_ratio": 0.19115829467773438,
+      "outline_pixels": 1923,
+      "strict_closed": false
+    },
+    {
+      "sample_id": "sample_000003",
+      "path": "data/processed/anime_outline_bootstrap_smoke/sample_000003",
+      "valid": true,
+      "issues": [],
+      "subject_ratio": 0.40941619873046875,
+      "outline_pixels": 1658,
+      "strict_closed": true
+    },
+    {
+      "sample_id": "sample_000004",
+      "path": "data/processed/anime_outline_bootstrap_smoke/sample_000004",
+      "valid": true,
+      "issues": [],
+      "subject_ratio": 0.39582061767578125,
+      "outline_pixels": 1487,
+      "strict_closed": false
+    }
+  ]
+}
