@@ -1,0 +1,23 @@
+{
+  "verified": true,
+  "total": 1250,
+  "counts": {
+    "redo": 263,
+    "pass": 987
+  },
+  "source_uid_unique": 1250,
+  "source_sha256_unique": 1250,
+  "source_native_sha256_verified": 1250,
+  "image_links_verified": 5000,
+  "binary_labels": [
+    "pass",
+    "redo"
+  ],
+  "enlarged_reviews": 170,
+  "annotation_sha256": "96d5f8c4fd90f6d6c0bc59f3c10623e6ce1dbe2e9f722aa7848b2a71a782f1a4",
+  "csv_sha256": "4812477baed26c59d85a366cfcac2cb579180839a62407d59bec856c700e0aad",
+  "html_sha256": "b4e8c672ab34b4c32a6f8c0ee89686d57e85d0acc66999bbb53699dee733fb66",
+  "checked_at": "2026-10-11T02:28:02.334144+08:00",
+  "page_logic_verified": true,
+  "live_browser_navigation": false
+}

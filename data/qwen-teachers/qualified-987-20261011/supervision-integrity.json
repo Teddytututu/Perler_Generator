@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "checked_unix": 1791658909.7614207,
+  "review340": {
+    "pass_count": 77,
+    "redo_count": 263
+  },
+  "merged1250": {
+    "pass_count": 987,
+    "redo_count": 263
+  },
+  "outside340_unchanged": 910,
+  "source_native_sha_versions_prompts_seeds_metadata_verified": true,
+  "csv_lists_links_verified": true,
+  "prior_human008_preserved": true,
+  "old_inventory_preserved": 850,
+  "archive_crc_verified": true,
+  "archive_inventory_sha_verified": 553,
+  "archive_sha256": "b89f35fadeabda43a59913e9b5f424d4e06c4dba9a0885ba4f7a0d74086a2c69"
+}

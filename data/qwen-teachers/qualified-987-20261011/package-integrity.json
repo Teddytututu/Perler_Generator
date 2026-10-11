@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "images": 987,
+  "split_counts": {
+    "train": 904,
+    "validation": 41,
+    "test": 42
+  },
+  "archive_bytes": 640160792,
+  "archive_sha256": "05be721cbebe2ad356a82b7f181a8a5bddde5c0bd00d9f5ebcac0d6a8838ffde",
+  "inventory_files": 996,
+  "archive_crc_verified": true,
+  "image_sha_and_full_decode_verified": true,
+  "checked_unix": 1791691099.710702
+}
