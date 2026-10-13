@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "images": 1154,
+  "split_counts": {
+    "train": 1058,
+    "test": 48,
+    "validation": 48
+  },
+  "archive_path": "C:\\Users\\Teddy\\Documents\\Codex\\2026-10-08\\qwen-teacher-500\\outputs\\Qwen-Chen-qualified-teachers-1154-20261013.zip",
+  "archive_bytes": 757907689,
+  "archive_sha256": "158aee2229ad3e6640d1ae6c21b0a0188869eae7ea3d94aaa9d0794eb161df8b",
+  "inventory_files": 1177,
+  "archive_crc_verified": true,
+  "image_sha_and_full_decode_verified": true,
+  "generation_record_and_config_binding_verified": true,
+  "parent_annotations_sha256": "f3f4c627a2c47de03e20bdc7050064dcb9206fa0b1a5110c16ced737e92fb3c0",
+  "checked_at": "2026-10-13T15:19:53.383253+08:00"
+}
