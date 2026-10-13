@@ -1,0 +1,26 @@
+{
+  "verified": true,
+  "images": 1162,
+  "additional_images": 8,
+  "base_images_preserved": 1154,
+  "split_counts": {
+    "train": 1066,
+    "test": 48,
+    "validation": 48
+  },
+  "archive_path": "C:\\Users\\Teddy\\Documents\\Codex\\2026-10-08\\qwen-teacher-500\\outputs\\Qwen-Chen-qualified-additional-8-20261013.zip",
+  "archive_bytes": 7799342,
+  "archive_sha256": "64728f7bf3ae8e6809ab87d2f85cd19e2e37fc3099f6b92bf3ce240ffede1c8e",
+  "all_selected_native_hashes_verified": 1162,
+  "new_native_decode_and_record_verified": 8,
+  "zip_crc_and_inventory_verified": true,
+  "parent_annotations_sha256": "143363d3ca707febacac4fa69d1860a7723bc0154267c731d18399456b3162d7",
+  "recipe": {
+    "total": 1162,
+    "additional_images": 8,
+    "old1154_preserved": true,
+    "base_archive": "Qwen-Chen-qualified-teachers-1154-20261013.zip",
+    "base_sha256": "158aee2229ad3e6640d1ae6c21b0a0188869eae7ea3d94aaa9d0794eb161df8b",
+    "base_url": "https://github.com/Teddytututu/Perler_Generator/releases/download/qwen-teachers-1154-20261013/Qwen-Chen-qualified-teachers-1154-20261013.zip"
+  }
+}
